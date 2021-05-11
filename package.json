@@ -1,0 +1,33 @@
+{
+    "name": "events-application",
+    "version": "1.0.0",
+    "description": "mern",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "server": "nodemon index.js",
+        "client": "npm run start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "keywords": [
+        "react",
+        "express"
+    ],
+    "author": "Daniil Kim <dan.kim.04lb@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^6.0.2",
+        "nodemon": "^2.0.7"
+    },
+    "dependencies": {
+        "@sendgrid/mail": "^7.4.2",
+        "bcrypt": "^5.0.1",
+        "config": "^3.3.6",
+        "express": "^4.17.1",
+        "express-validator": "^6.10.1",
+        "jsonwebtoken": "^8.5.1",
+        "method-override": "^3.0.0",
+        "mongoose": "^5.12.7",
+        "multer": "^1.4.2"
+    }
+}

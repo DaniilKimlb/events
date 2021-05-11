@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "connect-mongodb": "mongodb+srv://Daniil:Kzk7D992Mh9Rx5X@cluster0.ys6hh.mongodb.net/data?retryWrites=true&w=majority",
+    "secrete-code-jwt": "It is very cool",
+    "baseUrl": "http://localhost:5000"
+}
