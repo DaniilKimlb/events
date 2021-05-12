@@ -35,7 +35,7 @@ export function Create() {
     const classes = useStyles()
 
     return (
-        <React.Fragment>
+        <>
             <CssBaseline />
             <main className={classes.layout}>
                 <Paper className={classes.paper}>
@@ -49,6 +49,6 @@ export function Create() {
                     </React.Fragment>
                 </Paper>
             </main>
-        </React.Fragment>
+        </>
     )
 }

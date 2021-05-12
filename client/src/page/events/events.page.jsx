@@ -74,7 +74,7 @@ export function Events() {
     }
 
     return (
-        <React.Fragment>
+        <>
             <main>
                 <ModalUnauthorized error={error.status} />
                 {!events?.length ? (
@@ -126,6 +126,6 @@ export function Events() {
                     </Container>
                 )}
             </main>
-        </React.Fragment>
+        </>
     )
 }

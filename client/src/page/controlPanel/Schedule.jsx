@@ -16,7 +16,7 @@ export default function Schedule({ data }) {
         dataOrder.push({ time: toDate(e.date), amount: e.price })
     })
     return (
-        <React.Fragment>
+        <>
             <ResponsiveContainer>
                 <LineChart
                     data={dataOrder}
@@ -51,6 +51,6 @@ export default function Schedule({ data }) {
                     />
                 </LineChart>
             </ResponsiveContainer>
-        </React.Fragment>
+        </>
     )
 }

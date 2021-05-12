@@ -99,7 +99,7 @@ export default function CreateCard() {
         [request, token, img, history]
     )
     return (
-        <React.Fragment>
+        <>
             {alert}
             <ModalUnauthorized error={error.status} />
             <form
@@ -191,6 +191,6 @@ export default function CreateCard() {
                     </Button>
                 </div>
             </form>
-        </React.Fragment>
+        </>
     )
 }

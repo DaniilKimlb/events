@@ -82,7 +82,7 @@ export default function Profile() {
         return <Loader />
     }
     return (
-        <React.Fragment>
+        <>
             <CssBaseline />
             <main className={classes.layout}>
                 <Paper className={classes.paper}>
@@ -169,6 +169,6 @@ export default function Profile() {
                     </React.Fragment>
                 </Paper>
             </main>
-        </React.Fragment>
+        </>
     )
 }

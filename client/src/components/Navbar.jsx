@@ -94,7 +94,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <React.Fragment>
+            <>
                 <MenuIcon onClick={toggleDrawer('left', true)} />
                 <Drawer
                     anchor={'left'}
@@ -103,7 +103,7 @@ export default function Navbar() {
                 >
                     {list('left')}
                 </Drawer>
-            </React.Fragment>
+            </>
         </div>
     )
 }
